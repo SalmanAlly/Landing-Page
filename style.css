@@ -7,6 +7,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    
 }
 #main{
     width: 100%;
@@ -74,6 +75,7 @@ html,body{
     width: 60%;
     /* height: 100vh; */
     background-color: white;
+    
 }
 #rtop{
     width: 100%;
@@ -83,23 +85,37 @@ html,body{
 #rbottom{
     width: 100%;
     height: 50vh;
-    background-image: url(/3.webp);
+    overflow: hidden;
+}
+#rbottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     background-position: center;
-    background-size: cover;
+    
 }
 #rtopleft{
     width: 50%;
     height: 100%;
-    background-image: url(/1.webp);
+}
+#rtopleft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     background-position: center;
-    background-size: cover;
 }
 #rtopright{
     width: 50%;
     height: 100%;
-    background-image: url(/2.webp);
+}
+#rtopright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     background-position: center;
-    background-size: cover;
 }
 
 
